@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400700&display=swap');
+
+body {
+    
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding-bottom: 50px;
+
+}
+
+/*CONTATTI*/
+
+.contatti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    
+    text-align: left;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+#update {
+    background-color: red;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Footer */
+/*footer {
+    border-radius: 20px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.8); 
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 50px;
+    z-index: 1000; 
+}*/
+
+
+
+h1 {
+    margin: 0;
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
+    
+}
+
+/*BODY*/
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+
+}
+
+.card {
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
+margin: 10px 10px;
+padding: 20px;
+max-width: 90%;
+
+}
+
+.card .stile {
+font-size: 1rem;
+        color: #666;
+        margin-bottom: 10px;
+        line-height: 1.6;
+
+    }
+
+    .card h2 {
+        font-size: 1.8rem;
+        color: #444;
+        line-height: 1.8;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+span {
+    font-weight: bold;
+    color: #333;
+    text-align: left;   
+}
+
+/*LAVORI*/
+
+.lista-lavori {
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
+    background-color: #f9f9f9;
+    /*devo allineare i punti del ul vicino agli h2 e h3*/
+    display: inline-block;
+    text-align: left;
+    max-width: 90%;
+
+}
+
+    .lista-lavori h2 {
+        font-size: 1.8rem;
+        color: #444;
+        line-height: 1.8;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .lista-lavori h3 {
+        font-size: 1.5rem;
+        color: #444;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        
+    }
+
+    .lista-lavori ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+        .lista-lavori ul li {
+            margin: 0;
+            padding: 0;
+           
+        }
+
+            .lista-lavori ul li a {
+                color: #333;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 0.5rem 1rem;
+                transition: background-color 0.3s;
+            }
+
+                .lista-lavori ul li a:hover {
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                }
+
+
+    
+        
+       
